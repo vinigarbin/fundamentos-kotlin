@@ -13,7 +13,6 @@ class Feeder<in T : Animal> {
     fun feed(animal: Animal) {
         println("${animal.name} foi alimentado.")
     }
-
 }
 
 // covariancia = out (produtores)
